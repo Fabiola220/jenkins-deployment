@@ -1,6 +1,25 @@
-# Advanced DevOps Project
+# Advanced DevOps Project – CI/CD Pipeline with Jenkins, Docker, and Kubernetes
 
-This project demonstrates a full CI/CD pipeline using Jenkins, Docker, and Kubernetes for deploying a complex, multi-container application.
+This project showcases an end-to-end CI/CD pipeline designed for deploying a complex, multi-container application in a scalable and automated environment.
+Built as a hands-on advanced DevOps practice project, it simulates a real-world enterprise deployment scenario, integrating continuous integration, automated testing, containerization, and orchestration.
+
+## Purpose of the Project
+
+The goal of this project was to practice and demonstrate advanced DevOps concepts by building a robust deployment workflow that could be used in production-like environments. Specifically, this project was created to:
+
+- Gain hands-on experience with Jenkins for automation and pipeline scripting.
+- Learn how to containerize multi-service applications with Docker for portability and consistency.
+- Practice Kubernetes orchestration for managing services at scale.
+- Implement zero-downtime deployments and automated rollbacks.
+- Understand real-world CI/CD challenges, such as environment separation, security, and scaling strategies.
+
+# Tech Stack & Tools
+
+- **Jenkins** – For CI/CD automation, pipeline execution, and build management.
+- **Docker** – For containerizing the application into multiple services (frontend, backend, database, etc.).
+- **Kubernetes** – For orchestration, service discovery, scaling, and load balancing.
+- **GitHub** – For source code hosting and version control integration with Jenkins.
+- **Helm** – For Kubernetes deployment templating.
 
 ## Project Structure
 
